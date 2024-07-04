@@ -1,16 +1,23 @@
-:root {
-    --color-primary:#d73953;
-    --color-black: #090909;
-    --color-white: #ffffff;
-    --color-light-grey: #f3f3f3;
-    --color-dark-grey: #353535;
-    --text-color: color-black;
+html {
+    scroll-behavior: smooth;
 }
 
-.section-tagline, .card-category {
-    color: var(--color-primary);
+body {
+    color: #161616;
 }
 
-body, a {
-    color: var(--text-color);
+a {
+    color: #161616;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: #D73953;
+}
+
+.section-tagline {
+    color: #D73953;
 }
