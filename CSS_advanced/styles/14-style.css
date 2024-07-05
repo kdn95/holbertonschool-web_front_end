@@ -40,6 +40,11 @@ a[href] {
     color: #161616;
     text-decoration: none;
 }
+
+a[href]:link {
+    text-decoration: none;
+}
+
 a[href]:visited {
     font-style: italic;
 }
